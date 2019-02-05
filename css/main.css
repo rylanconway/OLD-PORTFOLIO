@@ -1,0 +1,227 @@
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    font-size: 1.5em;
+}
+
+.navbar-toggler{
+    border: white;
+}
+
+.container{
+    text-align: center;
+    width: 60%;
+    margin: 110px auto;
+}
+
+#welcome{
+    padding-top: 200px;
+}
+
+h1{
+    font-size:  7em;
+    font-family: monospace;
+}
+
+h4{
+    font-size:  3em;
+    font-family: monospace;
+}
+
+h6{
+    font-size:  1em;
+    font-family: monospace;
+}
+
+.imur{
+    font-size: 3em;
+}
+
+#rotate{
+    font-size: 3em;
+}
+
+.container p{
+    font-size: 1.3em;
+    line-height: 1.4em;
+}
+
+.txt-type > .txt {
+    border-right: 0.2rem solid black;
+}
+
+
+.icons{
+    height: 150px;
+    width: 150px;
+}
+
+.sec2{
+    margin-top: 200px;
+    padding: 100px;
+}
+
+.sechead{
+    font-size: 3em;
+}
+
+#mepic{
+    align-content: center;
+    width: 550px;
+    height: 370px;
+    border-radius: 50% 50% 50% 50%;
+    border: 1px solid black;
+}
+
+.workimg{
+    height: 500px;
+    width: 1000px;
+    border: 1px solid black;
+    border-radius: 2%;
+}
+.mobiletv{
+    display: none;
+}
+
+.minilogo{
+    display: none;
+}
+
+.labels{
+    margin-top: 30px;
+}
+
+input {
+    text-align: center;
+}
+
+#submit{
+    color: black;
+    background-color: white;
+}
+
+select{
+    color: black;
+    background-color: white;
+}
+
+.inputs{
+    border: 1px solid black;
+}
+
+.spacing{
+    margin-top: 30px;
+}
+
+
+
+@media screen and (max-width: 375px){
+    hr{
+        background-color: white;
+    }
+
+    #mepic{
+        align-content: center;
+        width: 100%;
+        height: auto;
+        border-radius: 50% 50% 50% 50%;
+        border: 2px dodgerblue;
+        background-color: white;
+    }
+
+    body{
+        background-color:black;
+        /*background-color: rgb(243,243,243);*/
+        color: white;
+    }
+    p{
+        font-size: 15px;
+    }
+
+    a{
+        color: white;
+    }
+
+    #welcome{
+        padding-top: 67px;
+    }
+
+    .sechead{
+        font-size: 25px;
+
+    }
+
+    .workimg{
+        display: none;
+    }
+
+    .mobiletv{
+        display: block;
+        width: 200px;
+        height: 100px;
+        align-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: -26px;    }
+
+    .minilogo{
+        display: block;
+        height: 100px;
+        width: 100px;
+        align-content: center;
+        margin-left: 23px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #contactform{
+        align-content: center;
+    }
+
+   .labels{
+       margin-top: 30px;
+   }
+
+   .spacing{
+       margin-top: 30px;
+   }
+
+}
+
+@media screen and (max-width: 414px){
+    #mepic{
+        align-content: center;
+        width: 100%;
+        height: auto;
+        border-radius: 50% 50% 50% 50%;
+        border: 2px solid dodgerblue;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    #mepic{
+        align-content: center;
+        width: 100%;
+        height: auto;
+        border-radius: 50% 50% 50% 50%;
+        border: 2px solid dodgerblue;
+    }
+
+}
